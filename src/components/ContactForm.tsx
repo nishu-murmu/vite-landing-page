@@ -1,8 +1,8 @@
 const ContactForm = () => {
   return (
-    <section className="bg-maroon-darker  py-20">
+    <section className="bg-maroon-darker h-[1099px]">
       <div className="container mx-auto px-4">
-        <div className="max-w-6xl contact-form mx-auto">
+        <div className="max-w-6xl pt-[300px] contact-form mx-auto">
           <div className="bg-maroon-dark backdrop-blur-sm rounded-3xl p-12">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               {/* Left Form Section */}

@@ -1,28 +1,35 @@
-// src/components/ServicesOne.jsx
-
 const ServiceCard = ({ title, description }: any) => (
-  <div className="bg-purple-900/50 rounded-xl p-8 relative">
-    <div className="w-12 h-12 bg-orange-500 rounded-full absolute -top-6 left-8"></div>
-    <h3 className="text-white text-xl font-bold mb-4 mt-4">{title}</h3>
-    <p className="text-gray-300 text-sm leading-relaxed">{description}</p>
+  <div
+    style={{
+      width: "355.82px",
+      height: "355.82px",
+    }}
+    className="bg-purple-card rounded-[33.81px] p-8 relative"
+  >
+    <div className="w-[96.6px] h-[96.6px] bg-orange-500 rounded-full absolute -top-12 right-8"></div>
+    <h3 className="text-white card-title mt-[63px] mb-4">{title}</h3>
+    <p className="text-gray-300 card-desc">{description}</p>
   </div>
 );
 
 const ServicesOne = () => {
   return (
-    <section className="bg-orange-500 py-16">
-      <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-bold text-center mb-4">
-          <span className="text-purple-950">Our </span>
-          <span className="text-purple-950">Services</span>
-        </h2>
-        <p className="text-center text-purple-950 max-w-3xl mx-auto mb-16">
-          Boost Your Brand's Presence With Targeted Social Media Strategies
-          Designed To Engage, Grow, And Convert Audiences Across All Platforms.
-          Let Us Help You Connect Authentically And Drive Impactful Results.
-        </p>
+    <section className="bg-orange-primary h-[1099px]">
+      <div className="mx-auto pt-[153px]">
+        <div className="h-[360px]">
+          <h2 className="services-title">
+            <span className="text-purple-950">Our </span>
+            <span className="text-purple-950">Services</span>
+          </h2>
+          <p className="text-center text-purple-950 max-w-3xl mx-auto mb-16">
+            Boost Your Brand's Presence With Targeted Social Media Strategies
+            Designed To Engage, Grow, And Convert Audiences Across All
+            Platforms. Let Us Help You Connect Authentically And Drive Impactful
+            Results.
+          </p>
+        </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+        <div className="flex h-[695px] pb-[144px] items-center bg-purple-primary justify-center gap-[46.18px]">
           <ServiceCard
             title="Brand Identity"
             description="Your Brand Is More Than Just A Logo - It's Your Story. We Help You Position Your Brand With Visual Brand Identities That Resonate With Your Audience And Tell Your Story Authentically."

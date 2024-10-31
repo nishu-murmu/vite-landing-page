@@ -8,13 +8,14 @@ import { DividerIcon } from "./components/Icons";
 import ServicesOne from "./components/ServicesOne";
 import ServicesTwo from "./components/ServicesTwo";
 import ServicesThree from "./components/ServicesThree";
+import RepeatingTextStrip from "./components/RepeatingStrip";
 
 function App() {
   return (
     <div className="min-h-screen bg-purple-primary">
       <Navbar />
       <HeroSection />
-      <DividerIcon />
+      <RepeatingTextStrip />
       <ServicesOne />
       <DividerIcon />
       <ServicesTwo />
