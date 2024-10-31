@@ -9,6 +9,7 @@ export default {
           primary: "#4B144B",
           dark: "#310A31",
           darker: "#420042",
+          card: "#5D2B5D",
         },
         maroon: {
           dark: "#431443",
