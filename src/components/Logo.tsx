@@ -1,5 +1,3 @@
-import React from "react";
-
 const Logo = () => {
   return (
     <div style={{ width: "306px", height: "107.73px" }}>

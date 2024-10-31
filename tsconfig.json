@@ -7,8 +7,10 @@
     "strict": true,
     "noEmit": true,
     "esModuleInterop": true,
+    "composite": true,
     "module": "esnext",
     "moduleResolution": "bundler",
+    "emitDeclarationOnly": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
@@ -22,9 +24,8 @@
       "@/*": ["./src/*"]
     },
     "noImplicitAny": false
-
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": ["vite-env.d.ts", "**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules"],
   "references": [
     { "path": "./tsconfig.app.json" },

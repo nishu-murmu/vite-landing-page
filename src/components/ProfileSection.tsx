@@ -1,6 +1,3 @@
-// src/components/ProfileSection.jsx
-import React from "react";
-
 const ProfileSection = () => {
   return (
     <section className="bg-purple-darker min-h-screen relative overflow-hidden">

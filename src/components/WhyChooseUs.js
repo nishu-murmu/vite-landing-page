@@ -1,0 +1,5 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+const WhyChooseUs = () => {
+    return (_jsxs("section", { className: "bg-orange-primary py-24 relative overflow-hidden h-[1099px]", children: [_jsx("div", { className: "absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2", children: _jsx("img", { src: "/images/question-mark.png", alt: "Why Choose Us?" }) }), _jsx("div", { className: "container mx-auto px-4 pt-[290px] relative z-10", children: _jsxs("div", { className: "max-w-4xl mx-auto text-center items-center", children: [_jsx("h2", { className: "why-choose-us-title text-purple-950 mb-10", children: "Why Choose Us?" }), _jsxs("p", { className: "text-purple-950 why-choose-us-desc", children: ["At Purple Haze Media, We Believe In Bold Ideas And Smart Execution.", _jsx("br", {}), "Our Team Of Experienced Professionals Is Dedicated To Delivering", _jsx("br", {}), "Results That Matter. Whether You're Launching A New Brand, Running", _jsx("br", {}), "A Political Campaign, Or Enhancing Your Online Presence, We Have", _jsx("br", {}), "The Tools And Expertise To Help You Succeed."] })] }) })] }));
+};
+export default WhyChooseUs;
