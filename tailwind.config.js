@@ -31,6 +31,7 @@ export default {
       fontFamily: {
         sans: ["Inter", "sans-serif"],
         dm: ["DM Sans", "sans-serif"],
+        petrov: ["Petrov Sans", "sans-serif"],
       },
     },
   },

@@ -1,3 +1,4 @@
+@import "./fonts.css";
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
 
@@ -109,4 +110,20 @@ body {
   left: 756px;
   gap: 0px;
   opacity: 0px;
+}
+
+.why-choose-us-title {
+  font-family: Petrov Sans;
+  font-size: 86.66px;
+  font-weight: 700;
+  line-height: 104.41px;
+  text-align: center;
+}
+
+.why-choose-us-desc {
+  font-family: DM Sans;
+  font-size: 27.98px;
+  font-weight: 500;
+  line-height: 33.71px;
+  text-align: center;
 }
